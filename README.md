@@ -17,6 +17,7 @@ import numpy as np
 ```
 
 ## Plotting
+![Simple Plotting](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/plotpy.png)
 To plot a line, we need an array for the x (horizontal) points and the y (vertical points). We use *plot()* to plot the x and y points then we use *show()* to display the graph.
 
 ```
@@ -28,6 +29,7 @@ plt.show()
 ```
 
 ## Markers
+![Markers](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/markersandgrid.png)
 We call an optional keyword argument *marker* in plot() to show a point in the graph especially in line graphs.
 
 ```
@@ -38,6 +40,7 @@ plt.show()
 ```
 
 ## Line Graphs
+![Line Graph](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/linegraph.png)
 This is how we display line graphs. We can add an optional keyword argument in plot() called *linestyle* wherein we specify in a string if we want the line to be dotted or dashed.
 
 ```
@@ -59,6 +62,7 @@ plt.show()
 ```
 
 ## Labels
+![Labels](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/linegraph.png)
 We use the method *xlabel()* to label the x-axis while *ylabel()* to label the y-axis.
 
 ```
@@ -73,14 +77,15 @@ plt.show()
 ```
 
 ## Title of the Graph
-We use the method *title()* to display the title of the graph.
 
+We use the method *title()* to display the title of the graph.
+![Title](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/linegraph.png)
 ```
 xPoints = np.array(["Mon", "Tue", "Wed", "Thu", "Fri"])
 yPoints = np.array([100, 150, 300, 250, 575])
 
 plt.plot(xPoints, yPoints)
-plt.title("Weekday Sales of Corndogs")
+plt.title("Sales of the Week")
 plt.xlabel("Day")
 plt.ylabel("Total Sales")
 
@@ -88,6 +93,7 @@ plt.show()
 ```
 
 ## Grid
+![Grid (Guidelines)](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/markersandgrid.png)
 We call the *grid()* method to add guidelines to the graph.
 
 ```
@@ -119,6 +125,7 @@ plt.show()
 ```
 
 ## Bar Graph
+![Bar Graph](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/bargraph.png)
 We use the *bar()* method to display a bar graph.
 
 ```
@@ -132,6 +139,7 @@ plt.show()
 ```
 
 ## Pie Chart
+![Pie Chart](https://github.com/dev-arthur-g20r/pylib-matplotlib/blob/main/images/piechart.png)
 We use the *pie()* method to display a pie chart. We use optional keyword argument *labels* to show labels of the data compared to each other.
 
 ```
